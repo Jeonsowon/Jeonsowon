@@ -31,6 +31,8 @@ Project Overview 🖥️
     : 휴게소와 졸음쉼터가 표시되는 지도 html.
   - labels.txt   
     : keras model에 대한 label로 0은 open eyes, 1은 close eyes를 뜻함.
+  - Drowsiness_Detection_Implement.mkv   
+    : 프로그램 실행 모습 화면 녹화 영상.   
     
 +  개발 과정 설명   
    - teachable machine 모델 설명   
@@ -189,12 +191,26 @@ Project Overview 🖥️
     cv2.destroyAllWindows()
     ```
     > 프로그램 종료 위한 코드
-+ Program 실행 설명
-  ![image](https://github.com/Jeonsowon/Jeonsowon/assets/144200709/389e7e3a-f09d-41b0-aa0e-7f3528358216)
-  ![image](https://github.com/Jeonsowon/Jeonsowon/assets/144200709/d90f1fc5-b73e-44b4-84a9-4a0c1555e8e0)
-  ![image](https://github.com/Jeonsowon/Jeonsowon/assets/144200709/fdacdbf7-fc8c-4cf5-b22a-6d2be2923d61)
-  ![image](https://github.com/Jeonsowon/Jeonsowon/assets/144200709/bb3badd5-d778-4169-a83b-7fc1ad861787)
-  > 한국만 데이터 적용   
++ Program 실행 모습
+  - Drowsiness_Detection_Implement.mkv 영상으로 실행 모습 확인 가능
+  - Snapshot을 통한 실행 모습   
+  ![image](https://github.com/Jeonsowon/Jeonsowon/assets/144200709/6019d3d6-0a09-4a34-9c1d-aa2c8fadc003)   
+    ###### open eyes로 인식함.   
+    ![image](https://github.com/Jeonsowon/Jeonsowon/assets/144200709/3abc090e-1d52-46f9-9062-5cbe6b0f3435)   
+    ###### close eyes로 인식함.   
+    ![image](https://github.com/Jeonsowon/Jeonsowon/assets/144200709/94b124bd-f22a-467f-b306-47c1099cde1d)   
+    ```
+    1/1 [==============================] - 0s 31ms/step
+    Class: close
+    Confidence Score: 91 %
+    15
+    ```
+    ###### sleep_count 15로 누적되어 경고음과 지도 출력   
+  ![image](https://github.com/Jeonsowon/Jeonsowon/assets/144200709/389e7e3a-f09d-41b0-aa0e-7f3528358216)   
+  ![image](https://github.com/Jeonsowon/Jeonsowon/assets/144200709/d90f1fc5-b73e-44b4-84a9-4a0c1555e8e0)   
+  ![image](https://github.com/Jeonsowon/Jeonsowon/assets/144200709/fdacdbf7-fc8c-4cf5-b22a-6d2be2923d61)   
+  ![image](https://github.com/Jeonsowon/Jeonsowon/assets/144200709/bb3badd5-d778-4169-a83b-7fc1ad861787)   
+    ###### 대한민국에만 데이터 적용.
 -----------------------------
 Reference 🙏
 -----------------------------
